@@ -1,0 +1,207 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	font-family: 'Raleway', sans-serif;
+	color: #666;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway', sans-serif;
+	color: #333;
+}
+
+/* Navigation */
+
+.navbar{
+	padding: 30px 0;
+	position: absolute;
+}
+
+.navbar-brand img{
+	width: 86px;
+}
+
+.home{
+	background: url('head_bg.jpg') no-repeat;
+	background-size: cover;
+	height: 700px;
+	position: relative;
+	background-position: 50% 50%;
+}
+
+.home-bg-overlay {
+	height: 100%;
+	background: rgba(0, 0, 0, .6);
+}
+
+.hero-text{
+	padding-top: 250px;
+}
+
+.hero-text h2 {
+	font-size: 34px;
+	color: #eee;
+	letter-spacing: 3px;
+	font-weight: 200;
+	text-transform: capitalize;
+}
+
+.hero-text h1{
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.hero-text p{
+	color: #eee;
+	font-size: 15px;
+	font-weight: 300;
+	word-spacing: 2px;
+}
+
+.sect-text{
+	margin-top: 100px;
+}
+
+.sect-text h2{
+	font-size: 33px;
+	margin-bottom: 60px;
+
+
+}
+
+/*.head{
+	width: 100vw;
+	min-height: 700px;
+	background: url('head_bg.jpg') no-repeat;
+	background-size: cover;
+}
+
+.text-grad{
+	    background-image: linear-gradient(to right, transparent, rgba(0,0,0,0.7));
+	    height: 700px;
+}
+
+.head-text{
+	padding: 30px;
+	float: right;
+	font-size: 50px;
+	color: #fff;
+
+}
+
+.head-text p{
+	font-size: 18px;
+}
+
+#wrapper{
+	margin: 50px;
+}*/
+
+/* Button Styles */
+
+.btn{
+	padding: 10px 48px;
+	margin: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 700px;
+	border: 2px solid;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.round{
+	border-radius: 10px;
+}
+
+.oval {
+	border-radius: 80px;
+}
+.outline-blue{
+	color: #0B99CB;
+	border-color: #0B99CB;
+	background: rgba(11, 153, 203, 0);
+}
+
+.outline-blue:hover, .outline-blue:active{
+	background: rgba(11, 153, 203, 0.1);
+	color: #0B99CB;
+}
+
+.solid-blue{
+	background: rgba(11, 153, 203, 1);
+	color: #fff;
+	border-color: #0B99CB;
+}
+
+.solid-blue:hover, .solid-blue:active{
+	background: rgba(11, 153, 203, .8);
+	color: #fff;
+}
+
+/* red */
+
+.outline-red{
+	color: #DF5A46;
+	border-color: #DF5A46;
+	background: rgba(223, 90, 70, 0);
+}
+
+.outline-red:hover, .outline-red:active{
+	background: rgba(223, 90, 70, 0.1);
+}
+
+.solid-red:hover, .solid-red:active{
+	color: #fff;
+	background: #d65342;
+}
+
+.solid-red{
+	background: rgba(223, 90, 70, 1);
+	color: #fff;
+	border-color: #DF5A46;
+}
+
+/* Gold */
+
+.outline-gold{
+	color: #ECC33B;
+	border-color: #ECC33B;
+	background: rgba(236, 195, 59, 0);
+}
+
+.outline-gold:hover, .outline-gold:active{
+	background: rgba(236, 195, 59, .3);
+	color: #ECC33B;
+}
+
+.solid-gold:hover, .solid-gold:active{
+	color: #ECC33B;
+	background: rgba(236, 195, 59, .8);
+}
+
+.solid-gold{
+	background: rgba(236, 195, 59, 1);
+	color: #fff;
+	border-color: #ECC33B;
+}
+
+/* White */
+
+.outline-white{
+	color: #fff; 
+	border-color: #fff;
+	background: rgb(225, 225, 225, 0);
+}
+
+.outline-white:hover, .outline-white:active{
+	background:rgb(225, 225, 225, 1);
+	color: #DF5A46;
+}
+
